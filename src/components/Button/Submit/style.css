@@ -1,0 +1,30 @@
+.log_in{
+    border: 2px solid grey;
+    border-radius: 25px;
+    height: 30px;
+    width:180px;
+    color: white;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.updatebutton{
+    border: 2px solid grey;
+    border-radius: 25px;
+    height: 30px;
+    width:180px;
+    color: white;
+    background-color: rgb(20, 134, 77);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.updatebutton:hover{
+    color: black;
+}
+
+
+.log_in:hover{
+    color: black;
+}

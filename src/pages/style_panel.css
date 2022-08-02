@@ -1,0 +1,29 @@
+.panel{
+    text-align: center;
+    margin-top: 7%;
+    background-color: rgb(55, 65, 150);
+    border : 2px solid rgb(55, 65, 150);;
+    border-radius: 60px;
+    min-height: 600px;
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+.edittext{
+    text-align: center;
+    color: rgb(153, 162, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dailytext{
+    color: rgb(153, 162, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.hublogo{
+    width: 200px;
+    height: 35px;
+}

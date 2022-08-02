@@ -1,0 +1,11 @@
+.addvalue{
+    color: white;
+    background: rgb(23, 123, 23);
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-left: 600px;
+    
+}
+.addvalue:hover{
+    color: black;
+}

@@ -1,0 +1,29 @@
+#lbl{
+    margin-left: 80px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.inputarea{
+    width: 250px;
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 0.5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.errorarea{
+    width: 250px;
+    height: 40px;
+    border: 2px solid rgb(255, 22, 22);
+    border-radius: 0.5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.errMsg{
+    color: rgb(150, 0, 0);
+}

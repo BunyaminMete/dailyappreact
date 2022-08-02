@@ -1,0 +1,12 @@
+.rmbutton{
+    margin-left: 30px;
+    background-color: rgb(244, 0, 81);
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    
+}
+.rmbutton:hover{
+    background-color: red;
+    color: black;
+}

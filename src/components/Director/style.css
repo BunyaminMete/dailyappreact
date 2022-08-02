@@ -1,0 +1,47 @@
+.afterLogin{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+
+.afterLoginWindow{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 660px;
+    bottom: 280px;
+    background: linear-gradient( #243bcf 10%, #9e9ef5 );
+    border: 2px solid rgb(124, 124, 124);
+    border-radius: 50%;
+    animation: openWindow 1s
+}
+
+@keyframes openWindow {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+
+.tik{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+.tik2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: black;
+    position: absolute;
+    left: 160px;
+    top: 325px;
+}

@@ -1,0 +1,41 @@
+{
+    "login" : [
+        {
+            "username" : "admin@hub.studio",
+            "password" : "admin123"
+    },
+        {
+            "username" : "guest",
+            "password" : "123456"
+        },
+        {
+            "username" : "bunyamin@hub.studio",
+            "password" : "12345678"
+
+        }
+        
+    ],
+    
+
+    "questions" : [
+        {
+            "id" : "A245B1",
+            "question" : "Dün ne yaptın ?",
+            "answer" : ""
+        },
+        {
+            "id" : "B9AS21",
+            "question" : "Bugün ne yapacaksın ?",
+            "answer" : ""
+            
+        },
+        {
+            "id" : "KL45M1",
+            "question" : "Bir engelin var mı ?",
+            "answer": ""
+        }
+     ]
+
+}
+
+
