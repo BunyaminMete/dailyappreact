@@ -20,18 +20,18 @@
     "questions" : [
         {
             "id" : "A245B1",
-            "question" : "Dün ne yaptın ?",
+            "question" : "What did you do yesterday ?",
             "answer" : ""
         },
         {
             "id" : "B9AS21",
-            "question" : "Bugün ne yapacaksın ?",
+            "question" : "What will you do today ?",
             "answer" : ""
             
         },
         {
             "id" : "KL45M1",
-            "question" : "Bir engelin var mı ?",
+            "question" : "Is there anything blocking you ?",
             "answer": ""
         }
      ]

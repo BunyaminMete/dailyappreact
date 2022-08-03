@@ -1,11 +1,15 @@
+import React from 'react';
+import Helmet from 'react-helmet';
+
+import data from '../data.json';
+
+import './style_panel.css';
+
 import InputQuestion from '../components/Input/input';
 import UpdateButton from '../components/Button/Submit/update';
-import React from 'react';
-import data from '../data.json';
 import RemoveButton from '../components/Button/RemoveBox';
-import './style_panel.css';
 import AddButton from '../components/Button/AddBox/add';
-import Helmet from 'react-helmet';
+
 import logo from '../assets/logo.svg';
 
 export default class AdminPanel extends React.Component {
@@ -19,7 +23,10 @@ export default class AdminPanel extends React.Component {
     this.deleteValue = this.deleteValue.bind(this);
   }
 
-  setQuestionInfo = (value, id) => {
+  setQuestionsValue = (event) => {
+    const id = event.target.id;
+    const value = event.target.value;
+
     const questions = [...this.state.questions];
     const mapping = questions.map((data) => {
       if (data.id == id) {
@@ -31,7 +38,8 @@ export default class AdminPanel extends React.Component {
   };
 
   updateEvent = (event) => {
-    event.preventDefault();
+    event.preventDefault(); //to disable form method
+    console.log(this.state.questions);
     window.location.replace('/answers');
   };
 
@@ -46,15 +54,14 @@ export default class AdminPanel extends React.Component {
   };
 
   addValue(event) {
-    const questions = this.state.questions;
+    const { questions } = this.state;
     let id_gen = (Math.random() + 1).toString(36).substring(2, 8).toUpperCase();
-
     questions.push({
       id: id_gen,
       question: '',
       answer: '',
     });
-    this.setState({ questions: questions });
+    this.setState({ questions });
     event.preventDefault();
   }
 
@@ -77,7 +84,7 @@ export default class AdminPanel extends React.Component {
           </p>
           {this.state.questions.map((data, index) => (
             <div key={index}>
-              <InputQuestion id={data.id} type="text" placeholder={data.question} inputFunc={this.setQuestionInfo} />
+              <InputQuestion id={data.id} type="text" placeholder={data.question} inputFunc={this.setQuestionsValue} />
 
               <RemoveButton id={data.id} rmbuttonClick={this.deleteValue} />
             </div>

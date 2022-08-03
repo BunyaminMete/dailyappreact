@@ -1,19 +1,23 @@
 import React from 'react';
+import Helmet from 'react-helmet';
+
+import data from '../data.json';
+
+import './style_login.css';
+
 import RegisterButton from '../components/Button/Submit/register';
 import InputQuestion from '../components/Input/input';
-import data from '../data.json';
-import './style_login.css';
+import Hiddendiv from '../components/Director/director';
 import LabelComp from '../components/Label/label';
+
 import hub from '../assets/character.png';
 import hubtext from '../assets/logo.svg';
-import Helmet from 'react-helmet';
-import Hiddendiv from '../components/Director/director';
 
 export default class LoginPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      userName: '', //false ama bir şey yazdıktan sonra true
+      userName: '',
       password: '',
       userNameErr: '',
       passwordErr: '',
@@ -38,25 +42,23 @@ export default class LoginPage extends React.Component {
     return splitted_pw.length > 7 ? true : false;
   };
 
-  sendToPanel = () => {
-    window.location.replace('/questionpanel');
-  };
-  sendToAnswerPage = () => {
-    window.location.replace('/answers');
+  sendToURL = (url) => {
+    window.location.replace(url);
   };
 
   showInfo = () => {
-    const emailValidCheck = this.isValidEmail(this.state.userName);
+    const { userName, password } = this.state;
+
+    const emailValidCheck = this.isValidEmail(userName);
     const passValidCheck = this.isValidPassword(this.state.password);
-    if (!this.state.userName || !this.state.password || !emailValidCheck || !passValidCheck) {
-      // console.log('if içindeyim', !this.state.userName);
-      //Eğer username ve password boş ise şunu return et
+
+    if (!userName || !password || !emailValidCheck || !passValidCheck) {
       return this.setState({
         userNameErr:
-          (!this.state.userName && 'You have to enter username information !!') ||
+          (!userName && 'You have to enter username information !!') ||
           (!emailValidCheck && 'You entered invalid email address'),
         passwordErr:
-          (!this.state.password && 'You have to enter password information !!') ||
+          (!password && 'You have to enter password information !!') ||
           (!passValidCheck && 'Password length must be at least 8.'),
       });
     }
@@ -64,14 +66,18 @@ export default class LoginPage extends React.Component {
     const { login } = data;
 
     const filteredData = login.filter((info) => {
-      return info.username === this.state.userName && info.password === this.state.password;
+      return info.username === userName && info.password === password;
     });
-    if (filteredData.length > 0 && filteredData[0].username == 'admin@hub.studio') {
+    let redirectURL = filteredData[0].username;
+    if (
+      filteredData.length > 0 && redirectURL == 'admin@hub.studio'
+        ? (redirectURL = '/questionpanel')
+        : (redirectURL = '/answers')
+    ) {
       this.setState({ isLogin: true });
-      setTimeout(this.sendToPanel, 1000);
-    } else if (filteredData.length > 0) {
-      this.setState({ isLogin: true });
-      setTimeout(this.sendToAnswerPage, 1000);
+      this.sendToURL(redirectURL);
+    } else {
+      alert('Login rejected.');
     }
   };
 

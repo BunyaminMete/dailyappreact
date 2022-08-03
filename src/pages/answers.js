@@ -1,10 +1,14 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+
+import data from '../data.json';
+
+import './style_answers.css';
+
 import UpdateButton from '../components/Button/Submit/update';
 import InputQuestion from '../components/Input/input';
 import LabelComp from '../components/Label/label';
-import data from '../data.json';
-import './style_answers.css';
+
 import hub from '../assets/logo.svg';
 
 // Oğuzhan ŞİMŞEK was here!!!!
@@ -34,7 +38,7 @@ export default class AnswerPage extends React.Component {
   };
 
   setQuestionInfo = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // to disable form method
     const error = [];
     const questions = [...this.state.questions];
     const mapping = questions.map((info) => {
