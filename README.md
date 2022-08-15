@@ -1,11 +1,12 @@
-<img width="1792" alt="Ekran Resmi 2022-08-02 15 50 58" src="https://user-images.githubusercontent.com/108274379/182379848-29bfab6d-26d7-4f93-98e9-a5108d6d9d2f.png">
+
+<img width="1790" alt="Ekran Resmi 2022-08-15 13 26 00" src="https://user-images.githubusercontent.com/108274379/184619867-ddf8890d-5e2f-4e48-96ff-c59cb25de322.png">
 Log-in Page
-<img width="1792" alt="Ekran Resmi 2022-08-02 15 51 45" src="https://user-images.githubusercontent.com/108274379/182379865-86ecf5d0-d25b-41ce-80fe-f6ce9e786eb7.png">
-Log-in Verified
-<img width="1790" alt="Ekran Resmi 2022-08-02 15 53 51" src="https://user-images.githubusercontent.com/108274379/182379921-7fa6b4ff-6734-48aa-9faf-98b61240c529.png">
+<img width="1792" alt="Ekran Resmi 2022-08-15 13 26 15" src="https://user-images.githubusercontent.com/108274379/184619881-b6be8ef9-5c44-456a-8284-ffd80217eacd.png">
+Register Page
+<img width="1792" alt="Ekran Resmi 2022-08-15 13 26 43" src="https://user-images.githubusercontent.com/108274379/184619891-e45c1cc8-d65b-4335-9c93-a3e8f2e533ad.png">
+Success Event
+<img width="1792" alt="Ekran Resmi 2022-08-15 13 26 56" src="https://user-images.githubusercontent.com/108274379/184619913-21fe6280-1a69-4c73-8dfb-9be6dd9bf7cd.png">
 Admin Panel
-<img width="1792" alt="Ekran Resmi 2022-08-02 15 54 02" src="https://user-images.githubusercontent.com/108274379/182379935-0206ac35-0506-4963-83df-267ef8dc43b2.png">
-Admin Panel 2
-<img width="1791" alt="Ekran Resmi 2022-08-02 15 54 55" src="https://user-images.githubusercontent.com/108274379/182379941-f07619e5-5cae-4a64-89e3-0aea7619f1de.png">
-User Panel
+<img width="1792" alt="Ekran Resmi 2022-08-15 13 27 08" src="https://user-images.githubusercontent.com/108274379/184619928-44d4be4b-5749-439f-a2d1-f21012785ae8.png">
+User Answer Panel
 
