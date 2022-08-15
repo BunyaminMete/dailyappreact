@@ -1,7 +1,7 @@
 .afterLogin{
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
     position: absolute;
     top: 0%;
     right: 0%;

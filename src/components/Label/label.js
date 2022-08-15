@@ -7,7 +7,10 @@ export default function LabelComp(props) {
 
   return (
     <>
-      <label className="lbl" htmlFor={forinput}>
+      <label
+        className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded text-violet-600 bg-black-200 uppercase last:mr-0 mr-1"
+        htmlFor={forinput}
+      >
         <b>
           {text} <br />
         </b>

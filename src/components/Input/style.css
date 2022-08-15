@@ -24,6 +24,27 @@
     
 }
 
-.errMsg{
-    color: rgb(150, 0, 0);
-}
+
+
+.errMsg {
+    margin-left: 0%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 30;
+    color: white;
+    display: inline-block;
+    color: #c90000;
+    animation: 2s shake infinite alternate;
+
+  }
+  
+  @keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    20% { transform: skewX(15deg); }
+    40% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }

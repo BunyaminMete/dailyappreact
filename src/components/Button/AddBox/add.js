@@ -5,7 +5,10 @@ export default function AddButton(props) {
   const { addElement } = props; //props küçük harfle
   return (
     <>
-      <button className="addvalue" onClick={addElement}>
+      <button
+        className="h-10 px-5 m-2 text-green-100 transition-colors duration-150 bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-800 absolute ml-44"
+        onClick={addElement}
+      >
         +
       </button>
     </>

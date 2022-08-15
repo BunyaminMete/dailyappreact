@@ -1,0 +1,42 @@
+.success{
+    position: absolute;
+    background-color: rgba(12, 12, 12, 0.4);
+    height: 50%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.continueButton{
+    color: white;
+    background-color: rgb(32, 112, 249);
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    margin-top: 10%;
+}
+
+.poparea{
+    background-color: rgba(12, 12, 12, 0.8);
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin-left: 33%;
+    margin-top: 15%;
+    border-radius: 20px;
+
+}
+
+.text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.successPNG{
+    width: 200px;
+    margin-left: 35%;
+    margin-top: 20%
+}

@@ -1,0 +1,57 @@
+.registerarea{
+    text-align: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 34%;
+    width: 600px;
+    background-color: rgb(55, 65, 150);
+    border: 2px solid rgb(55, 65, 150);
+    border-radius: 50px;   
+    min-height: 600px;
+    height: auto;
+    position: relative;
+    height: auto;
+}
+
+ 
+.hubtext{
+margin-left: 38%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+
+.required-informations{
+
+    border: solid rgba(#000, .05);
+    border-radius: 10px;
+    min-height: 600px;
+    width: 90%;
+    margin-left: 5.8%;
+    height: auto;
+    margin-bottom: 40px;
+
+}
+
+.log-link{  
+    background-color: rgb(91, 91, 240);
+    color: rgb(200, 205, 229);
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 12px;
+    
+
+}
+
+.linkarea{
+    width: 500px;
+    margin-top: 30%;
+    margin-left: 24%;
+    color: rgb(208, 204, 255);
+
+}
+
+.log-link:hover{
+    background-color: rgb(47, 47, 110);
+
+}
