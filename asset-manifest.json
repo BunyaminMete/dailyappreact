@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d835c8dc.css",
-    "main.js": "/static/js/main.eca6e60d.js",
-    "static/media/character.png": "/static/media/character.5ce25d2c1bca0e4b5d74.png",
-    "static/media/success2.png": "/static/media/success2.6776e7dbfd58b183ee46.png",
-    "static/media/logo.svg": "/static/media/logo.0029ab9f47d9bbca77bb6cd1c33a156a.svg",
-    "index.html": "/index.html",
-    "main.d835c8dc.css.map": "/static/css/main.d835c8dc.css.map",
-    "main.eca6e60d.js.map": "/static/js/main.eca6e60d.js.map"
+    "main.css": "/reactdailyapp/static/css/main.d835c8dc.css",
+    "main.js": "/reactdailyapp/static/js/main.fe729e5b.js",
+    "static/media/character.png": "/reactdailyapp/static/media/character.5ce25d2c1bca0e4b5d74.png",
+    "static/media/success2.png": "/reactdailyapp/static/media/success2.6776e7dbfd58b183ee46.png",
+    "static/media/logo.svg": "/reactdailyapp/static/media/logo.0029ab9f47d9bbca77bb6cd1c33a156a.svg",
+    "index.html": "/reactdailyapp/index.html",
+    "main.d835c8dc.css.map": "/reactdailyapp/static/css/main.d835c8dc.css.map",
+    "main.fe729e5b.js.map": "/reactdailyapp/static/js/main.fe729e5b.js.map"
   },
   "entrypoints": [
     "static/css/main.d835c8dc.css",
-    "static/js/main.eca6e60d.js"
+    "static/js/main.fe729e5b.js"
   ]
 }
