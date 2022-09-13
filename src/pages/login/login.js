@@ -144,7 +144,7 @@ export default function LoginPage() {
           />
         </div>
         <br />
-        <RegisterButton buttonClick={showInfo} text="Log-In" /> <button>Count Controller</button>
+        <RegisterButton buttonClick={showInfo} text="Log-In" />
         <br />
       </div>
       <Hiddendiv activeCheck={isLogin} />

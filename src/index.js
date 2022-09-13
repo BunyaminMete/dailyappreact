@@ -4,10 +4,13 @@ import { BrowserRouter } from 'react-router-dom';
 // import App from './routes/route';
 import './styles/main.css';
 import Provider from './context/context';
+import { HighLight } from 'hubstudio-highlight';
+// import OsmanAga from 'ligthwords';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Provider />
+    <HighLight text="The person u have called is not avaliable at the" search="have" />
   </BrowserRouter>,
 );
