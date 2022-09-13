@@ -10,7 +10,7 @@ const Hiddendiv = (props) => {
       {activeCheck && (
         <div className="afterLogin">
           <div className="afterLoginWindow">
-            <img className="tik" src={tik}></img>
+            <img alt="successAnimation" className="tik" src={tik}></img>
             <span className="tik2">LOG-IN SUCCESSFUL</span>
           </div>
         </div>

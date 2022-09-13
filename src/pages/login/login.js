@@ -78,7 +78,7 @@ export default function LoginPage() {
         console.log(localStorage);
 
         if (
-          localStorage.length == 1 && whoIsIt.email == 'bunyamin@mete.com'
+          localStorage.length === 1 && whoIsIt.email === 'bunyamin@mete.com'
             ? (redirectURL = '/questionpanel')
             : (redirectURL = '/answers')
         ) {
@@ -114,11 +114,11 @@ export default function LoginPage() {
         <p className="toregister">
           <a href="/user-register">REGISTER</a>
         </p>
-        <img className="hubpng" src={hub}></img>
+        <img alt="hubpng" className="hubpng" src={hub}></img>
         <Helmet>
           <style>{'body { background-color: rgb(21, 24, 73); }'}</style>
         </Helmet>
-        <img className="hubtext" src={hubtext}></img>
+        <img alt="hubtext" className="hubtext" src={hubtext}></img>
         <br />
         <LabelComp text="User ID" forinput="email" />
         <div className="ml-3">

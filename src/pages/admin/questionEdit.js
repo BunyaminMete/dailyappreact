@@ -21,7 +21,7 @@ const AdminPanel = () => {
     const myquestions = [...questions];
 
     const mapping = myquestions.map((data) => {
-      if (data.id == id) {
+      if (data.id === id) {
         data.questions = value;
       }
       return data;
@@ -39,7 +39,7 @@ const AdminPanel = () => {
     const { id } = event.target;
     const getQuestions = [...questions];
     for (let i = 0; i < getQuestions.length; i++) {
-      if (getQuestions[i].id == id) {
+      if (getQuestions[i].id === id) {
         getQuestions.splice(i, 1);
       }
     }
@@ -76,7 +76,7 @@ const AdminPanel = () => {
       <form className="panel">
         <br /> <br />
         <p className="hublogo">
-          <img className="hublogo" src={logo}></img>
+          <img alt="hublogo" className="hublogo" src={logo}></img>
         </p>
         <AddButton addElement={addValue.bind(this)} />
         <p className="dailytext">

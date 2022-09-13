@@ -10,7 +10,7 @@ export default function SuccessEvent() {
     <>
       <div className="success">
         <div className="poparea">
-          <img className="successPNG" src={success}></img>
+          <img alt="successImage" className="successPNG" src={success}></img>
           <p className="text">SUCCESS</p>
           <button onClick={redirectEvent} className="continueButton">
             CONTINUE

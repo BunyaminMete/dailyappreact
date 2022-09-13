@@ -6,7 +6,7 @@ import './style.css';
 const Logout = ({ offEvent }) => {
   return (
     <button className="off">
-      <img onClick={offEvent} src={logoff}></img>
+      <img alt="logoff button" onClick={offEvent} src={logoff}></img>
     </button>
   );
 };

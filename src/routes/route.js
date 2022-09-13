@@ -12,7 +12,7 @@ function App() {
       {localStorage.getItem('Token') ? (
         <>
           <Route path="/" element={<Navigate to="/answers" />} />
-          {localStorage.getItem('email') == 'bunyamin@mete.com' ? (
+          {localStorage.getItem('email') === 'bunyamin@mete.com' ? (
             <>
               <Route path="/questionpanel" element={<AdminPanel />} />
               <Route path="/answers" element={<AnswerPage />} />

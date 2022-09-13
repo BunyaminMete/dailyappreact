@@ -67,7 +67,7 @@ const RegisterArea = () => {
       </Helmet>
       <div className="registerarea">
         <p className="hubarea">
-          <img className="hubtext" src={hubtext}></img>
+          <img alt="hubtext" className="hubtext" src={hubtext}></img>
         </p>
         <br />
         <div className="required-informations">

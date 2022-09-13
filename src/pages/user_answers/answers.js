@@ -25,7 +25,7 @@ export default function AnswerPage() {
     const { id, value } = event.target;
     const getQuestions = [...questions];
     const mapping = getQuestions.map((data) => {
-      if (data.id == id) {
+      if (data.id === id) {
         data.answer = value;
       }
       return data;
@@ -64,7 +64,7 @@ export default function AnswerPage() {
       </Helmet>
       {success && <SuccessEvent />}
       <form className="enterForm">
-        <img className="hubpng" src={hub}></img>
+        <img alt="hublogo" className="hubpng" src={hub}></img>
         <br /> <br /> <br />
         {questions.map((data, index) => (
           <div key={index}>
