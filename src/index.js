@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import './styles/main.css';
 import Provider from './context/context';
 import { HighLight } from 'hubstudio-highlight';
-// import OsmanAga from 'ligthwords';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
